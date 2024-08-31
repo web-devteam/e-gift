@@ -1,6 +1,7 @@
 let codes = [10101, 12012, 11122, 10234, 12021]
 let sender = ["emmanuel", "emmanuel", "emmanuel", "emmanuel", "emmanuel"]
 let gift = ["wall1.jpg", "pdf2.pdf", "wall3.jpg", "wall4.jpg", "wall5.jpg"]
+let names = ["wallpaper from e~gift", "novel from e~gift", "wallpaper from e~gift", "wallpaper from e~gift", "wallpaper from e~gift"]
 let ran = ["unrapping gifts", "preparing package", "tying ribbons", "purchasing gift bags", "stamping packages", "delivering packages", "finishing up", "tying friends", "opening gifts", "scanning gift code",
     "searching", "tearing package", "compressing gifts", "chatting with some friends", "checking my email"]
 
@@ -25,6 +26,7 @@ document.getElementsByTagName("h1").item(1).innerHTML="found"
 document.getElementById("viewbtn").style.cursor="none"
 document.getElementById("viewbtn").style.textDecoration="none"
  document.getElementsByTagName("p").item(1).innerHTML="congrate, you have a gift from "+sender[index]
+     document.getElementById("gifturl").download=names[index]
  document.getElementById("gifturl").href=gift[index]
 }
 }
