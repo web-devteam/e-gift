@@ -35,6 +35,7 @@ document.getElementById("viewbtn").addEventListener("click", ()=>{
     if(document.getElementById("viewbtn").style.textDecoration=="none"){
      document.getElementsByTagName("img").item(0).style.display="none"
           document.getElementById("viewbtn").style.display="none"
-               document.getElementsByTagName("p").item(1).innerHTML="check your downloads for the package"}
+               document.getElementsByTagName("p").item(1).innerHTML="check your downloads for the package"
+     document.getElementById("gifturl2").click()}
 })
 
