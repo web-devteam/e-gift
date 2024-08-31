@@ -1,6 +1,6 @@
 let codes = [10101, 12012, 11122, 10234, 12021]
 let sender = ["emmanuel", "emmanuel", "emmanuel", "emmanuel", "emmanuel"]
-let gift = ["folder 1", "folder 2", "folder 3", "folder 4", "folder 5"]
+let gift = ["folder1", "folder2", "folder 3", "folder 4", "folder 5"]
 let ran = ["unrapping gifts", "preparing package", "tying ribbons", "purchasing gift bags", "stamping packages", "delivering packages", "finishing up", "tying friends", "opening gifts", "scanning gift code",
     "searching", "tearing package", "compressing gifts", "chatting with some friends", "checking my email"]
 
