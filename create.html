@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E ~gift</title>
+    <link rel="stylesheet" href="create .css">
+    <link rel="icon" href="Photo Cut Paste  Background Changer2024_08_31_02_07_30.png">
+</head>
+<body>
+<h1>Create</h1>
+<p style="color: white;  margin-top: -20px; font-size: 11px; margin-bottom: -30px;">please fill in the information here</p>
+<div id="form" ><div><p>name</p><input type="text" id="name" ></div>
+<div><p>gift type</p><select id="type" >
+    <option value="select"></option>
+    <option value="downloadable">downloadable (novels, wallpapers)</option>
+<option value="scratch">scratch card</option>
+<option value="interactive">interactive gifts</option>
+<option value="note">note (letters, poems)</option>
+<option value="box">gift box</option></select></div>
+<div><p id="codeinfo">code</p><button id="gen">generate</button></div>
+<div><p>edit gift</p><button id="customise">customize</button></div>
+</div>
+<button id="done">done</button>
+<div id="blank"><div id="box"><h4 style="margin-top: 20px; font-family: cursive; font-size: 1.2rem; font-weight: light; text-align: center; margin-top: 30px; margin-bottom: 50px;">select download item</h4>
+    <select id="downfile" style="display: none;">
+        <option value=""></option>
+        <option value="wallpaper">wallpaper</option>
+    <option value="novel">novel</option>
+    <option value="music">music</option>
+    <option value="game">game</option>
+    <option value="video">video clip</option>
+<option value="others">others</option></select>
+<input type="text" placeholder="scratch card header" id="scratchhead" style="border-bottom: 1px solid black; margin-bottom: 10px; display: none;">
+<input type="text" placeholder="scratch card text" id="scratchtxt" style="border-bottom: 1px solid black; display: none;">
+<textarea id="notetxt" placeholder="note content" style="min-width: 200px; min-height: 60px; max-height: 60px; min-width: 200px; display: none;"></textarea>
+<select id="intersel" style="display: none; margin-bottom: 10px;">
+    <option value=""></option>
+    <option value="gif">suprise gif</option>
+<option value="game">interactive game</option>
+<option value="holiday">holiday doodle</option>
+<textarea id="des" style="min-width: 200px; min-height: 50px; max-height: 50px; min-width: 200px; display: none;" placeholder="didn't find anyhthing? describe what interactive activity you would like for your friend and would send our design"></textarea>
+</select>
+<button id="done2">done</button></div>
+</div>
+<div id="blank2"><div id="box2"><h4 style="margin-top: 20px; font-family: cursive; font-size: 1.2rem; font-weight: light; text-align: center; margin-top: 30px; margin-bottom: 50px;">what would happen</h4>
+<p id="obj1">once you click continue your default mail browser will open with a drafted email
+    containg your filled information. There are two steps in sending the email. 
+</p><p id="obj">First insert an image of the desired wallpaper you would like to send to your friend</p>
+<p>Secondly click the send button to send the email to our team.</p>
+<h4 style="margin-top: 20px; font-family: cursive; font-size: 1.2rem; font-weight: light; text-align: center; margin-top: 30px; margin-bottom: 50px;">what next</h4>
+<p>in less than 24hrs we would send you an email to confirm that your gift has been created. It will contain 
+    the gift code and the link to view the gift, which you can forward to your friends.
+</p>
+<p id="obj2"></p>
+<button id="continue">continue</button></div></div>
+<div id="blank3"><p style="text-align: center;">Thanks for using e ~gift your link would be ready in less than 24hrs</p></div>
+</body>
+<script src="create.js"></script>
+</html>

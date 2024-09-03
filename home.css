@@ -1,0 +1,221 @@
+h1{
+font-size: 3rem;
+font-family: cursive;
+background-color: rgba(0, 99, 248, 0.683);
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+padding: 10px;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;
+width: 300px;
+margin-top: -10px;
+color: white;
+}
+#row{
+    width: 100%;
+    height: 350px;
+   /*border: 1px solid black; */
+    margin-bottom: 75px;
+    display: flex;
+    align-items: center;
+
+    column-gap: 10%;
+    overflow-x: scroll;
+}
+#row2{
+    width: 100%;
+    height: fit-content;
+/*   border: 1px solid black;*/
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+justify-content: center;
+    
+    overflow-x: scroll;
+    flex-direction: column;
+}
+h3{
+    font-family: cursive;
+background-color: rgba(0, 99, 248, 0.683);
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+padding: 10px;
+border-radius: 20px;
+width: 200px;
+
+color: white;
+}
+.txtbox{
+    width: 40%;
+    height: 300px;
+   
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#opt1{
+    width: 40%;
+    min-width: 40%;
+    height: 300px;
+   border: 1px solid black; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-top: 3px solid rgb(255, 123, 0);
+  margin-left: 4%;
+}
+#opt3{  min-width: 40%;
+    width: 40%;
+    height: 300px;
+   border: 1px solid black; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  border-top: 3px solid rgb(255, 0, 60);
+  padding-left: 10px;
+  padding-right: 10px;
+margin-right: 4%;
+}
+#opt2{  min-width: 40%;
+    width: 40%;
+    height: 300px;
+   border: 1px solid black; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  border-top: 3px solid rgb(0, 140, 255);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#opt4{
+    width: 40%;
+    height: 300px;
+   border: 1px solid black; 
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  border-top: 3px solid rgb(242, 0, 255);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#opt4btn{
+    width: 150px;
+    height: 29px;
+    
+    background-image: linear-gradient(to right, rgb(174, 0, 255), rgb(0, 145, 255));
+    color: white;
+border: 0;
+
+margin-left: auto;
+margin-right: auto;
+display: block;
+margin-top: 50px;
+border-radius: 20px;
+
+}
+#opt1btn{
+    width: 150px;
+    height: 29px;
+    
+    background-image: linear-gradient(to right, rgb(255, 85, 0), rgb(255, 162, 0));
+    color: white;
+border: 0;
+
+margin-left: auto;
+margin-right: auto;
+display: block;
+margin-top: 50px;
+border-radius: 20px;
+
+}
+#opt2btn{
+    width: 150px;
+    height: 29px;
+  
+    background-image: linear-gradient(to right, rgb(0, 89, 255), rgb(0, 238, 255));
+    color: white;
+border: 0;
+
+margin-left: auto;
+margin-right: auto;
+display: block;
+margin-top: 50px;
+border-radius: 20px;
+
+}
+#opt3btn{
+    width: 150px;
+    height: 29px;
+    
+    background-image: linear-gradient(to right, rgb(255, 0, 0), rgb(255, 0, 115));
+    color: white;
+border: 0;
+
+margin-left: auto;
+margin-right: auto;
+display: block;
+margin-top: 50px;
+border-radius: 20px;
+
+}
+p{text-align: center; max-width: 90%;}
+a{color: white; text-decoration: none;}
+::-webkit-scrollbar-thumb{
+    background-color: rgba(139, 139, 139, 0.728);
+    width: 7px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+::-webkit-scrollbar{width: 7px; height: 0px;}
+
+@media screen and (max-width: 750px) {
+
+
+h1{font-size: 2rem; width: 240px;}
+
+#opt1{
+    min-width: 90%;
+    margin-left: 4%;
+}
+#opt2{
+    min-width: 90%;
+}
+#opt3{
+    min-width: 90%;
+    margin-right: 2%;
+}
+p{min-width: 280px;}
+}
+#prev{
+    width: 50px;
+    height: 50px;
+    border: 0;
+    left: 10px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: rgba(118, 118, 118, 0.518);
+    font-size: 20px;
+}
+#next{
+    width: 50px;
+    height: 50px;
+    border: 0;
+    position: absolute;
+    right: 10px;
+    border-radius: 50%;
+    background-color: rgba(118, 118, 118, 0.516);
+    font-size: 20px;
+}

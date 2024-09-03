@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E ~gift</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="icon" href="Photo Cut Paste  Background Changer2024_08_31_02_07_30.png">
+</head>
+<body>
+<h1>E ~gift</h1>
+<p style="font-size: 13px; text-align: center; margin-bottom: 100px;">an online gifting platform</p>
+<div id="row"><button id="prev">◀</button><div id="opt1"><h4>create your custom gift</h4><p>use our free gift creating 
+    software to create a gift for a friend <a href="create.html"><button id="opt1btn">get started</button></a>
+</p></div><div id="opt2"><h4>can't decide what to give</h4>
+<p>can't decide what to give your friend or want something exceptional. 
+     we got you covered use our custom gift creation tool to create a special 
+    and exceptional gift with our team that your friends would love
+   <a href="custom.html"><button id="opt2btn">get started</button></a>
+</p></div><div id="opt3"><h4>pass code log in</h4><p>have a pass code log in here to 
+    see what your friend designed for you
+</p><a href="login.html"><button id="opt3btn">log in</button></a></div><button id="next">▶</button></div>
+<div id="row2"><h3>what is E ~gift</h3>
+    <p style="margin-bottom: 60px;">E ~gift is a free online gifting platform used to create and send gift to people. 
+        with E ~gift you could send dowloadable wallpapers or novels to others, scratch cards, 
+        letters, gif, doodles or a custom made design
+    </p>
+    <h3>more from us</h3>
+<p>more webapps by web-devteam 1. Astro : your very own web assistant in your 
+    web browser it can perform functions like setting alarms, opening apps, 
+    play music, make calls and even send emails plus it has some pro features 
+    like the focus session and the voice mode and its available for mobile and pcs at 
+   <a style="color: rgb(0, 140, 255);" target="_blank" href="https://web-devteam.github.io/astro">https://web-devteam.github.io/astro</a>. 2. Get fit : it's a life changing exercising web app, 
+    it allows users create their own dynamic exercise plans, it provides auto generated weekly 
+    exercise plans and a 4 exercise daily routine topped with a daily streak feature. it 
+    is currently still under development but beta versions are already out. 
+For more info about astro visit <a style="color: rgb(0, 140, 255);" target="_blank" href="https://web-devteam.github.io/astro-build">https://web-devteam.github.io/astro-build</a></p>
+</div></div>
+</body>
+<script>
+ let no = 0
+    document.getElementById("prev").addEventListener("click", ()=>{
+       if(window.innerWidth>750){ document.getElementById("row").scrollTo(-10000, 0)}
+       else{no = no-window.innerWidth-10
+        document.getElementById("row").scrollTo(no, 0); console.log("less")}
+    })
+   
+    document.getElementById("next").addEventListener("click", ()=>{
+        if(window.innerWidth>750){ document.getElementById("row").scrollTo(10000, 0)}
+        else{no = no+window.innerWidth+10
+            document.getElementById("row").scrollTo(no, 0); console.log("less")}
+    })
+</script>
+</html>
