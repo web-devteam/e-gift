@@ -208,6 +208,9 @@ p{min-width: 280px;}
     border-radius: 50%;
     background-color: rgba(118, 118, 118, 0.518);
     font-size: 20px;
+       display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #next{
     width: 50px;
@@ -218,4 +221,7 @@ p{min-width: 280px;}
     border-radius: 50%;
     background-color: rgba(118, 118, 118, 0.516);
     font-size: 20px;
+       display: flex;
+    align-items: center;
+    justify-content: center;
 }
