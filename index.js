@@ -95,18 +95,26 @@ document.getElementById("prop").append(create)
 document.getElementById("open").addEventListener("click", ()=>{ document.getElementById("plain3").style.display="none" 
     document.getElementById("boxprev").style.display="flex" ; document.getElementById("boxnext").style.display="flex" 
 giftbox()
+    document.getElementById("packtop").style.display="flex"
 })
 document.getElementById("boxnext").addEventListener("click", ()=>{
+    current=current+1
     giftbox()
+})
+document.getElementById("boxprev").addEventListener("click", ()=>{
+    
+  if(current>0){current=current-1; console.log(current)}
+  giftbox()
 })
 
 //gift box----------------------------------------
 function giftbox (){
 let list = publicarray[current].split(":")
 console.log(list[0])
-current=current+1
+
 list[0]=list[0].trimEnd()
 list[0]=list[0].trimStart()
+    document.getElementById("packtop").innerHTML="item "+(current+1)+"/"+publicarray.length+" : "+list[0]
 if(list[0]=="downloadable file"){
     document.getElementById("plain2").style.display="none"
 document.getElementById("plain3").style.display="none"
@@ -116,6 +124,8 @@ document.getElementById("plain1").style.display="none"
     document.getElementsByTagName("img").item(0).style.display="none"
          document.getElementById("viewbtn").style.display="none"
               document.getElementsByTagName("p").item(1).innerHTML="check your downloads for the package"
+ document.getElementById("gifturl").href=list[1]
+ document.getElementById("gifturl").download="package from E ~gift"
 document.getElementById("gifturl").click()
 document.getElementById("gifturl2").click()}
 else if(list[0]=="scratch card"){
