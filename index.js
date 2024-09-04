@@ -19,7 +19,7 @@ document.getElementById("plain").style.display="flex"
 setInterval(()=>{document.getElementById("loadbar").value=document.getElementById("loadbar").value+0.1}, 25)
 document.getElementsByTagName("h3").item(0).innerHTML=ran[Math.floor(Math.random()*15)]+" ..."
 setInterval(()=>{document.getElementsByTagName("h3").item(0).innerHTML=ran[Math.floor(Math.random()*15)]+" ..."}, 5000)
-setTimeout(()=>{document.getElementById("plain").style.display="none"}, 1000)
+setTimeout(()=>{document.getElementById("plain").style.display="none"}, 28000)
 document.getElementById("mains").style.display="none"
 document.getElementById("viewbtn").style.cursor="no-drop"
 document.getElementById("viewbtn").style.textDecoration="line-through"
