@@ -1,6 +1,6 @@
 let codes = [10101, 12012, 11122, 10234, 12021, 59361, 66773, 90250, 12907, "14523"]
 let sender = ["emmanuel", "emmanuel", "emmanuel", "emmanuel", "emmanuel", "unknown", "unknown", "unknown", "emmanuel", "emmanuel"]
-let gift = ["wall1.jpg", "pdf2.pdf", "wall3.jpg", "wall4.jpg", "wall5.jpg",
+let gift = ["wall1.jpg", "broken.pdf", "wall3.jpg", "wall4.jpg", "wall5.jpg",
             "note: this is a test note no 1 , note: this is a test note no 2, scratch card: head; scratch head; body; scratch body, downloadable file: wall3.jpg", "head: happy birthday body: i wish you long life",
             "this is a test note info checked", "images.png", "broken.pdf"]
 let names = [".wallpaper from e~gift", ".novel from e~gift", ".wallpaper from e~gift", ".wallpaper from e~gift", ".wallpaper from e~gift", "box", "scratch", "note", "wallpaper from e~gift", ".novel from e~gift"]
