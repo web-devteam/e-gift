@@ -2,7 +2,7 @@ let codes = [10101, 12012, 11122, 10234, 12021, 59361, 66773, 90250, 12907, "145
 let sender = ["emmanuel", "emmanuel", "emmanuel", "emmanuel", "emmanuel", "unknown", "unknown", "unknown", "emmanuel", "emmanuel"]
 let gift = ["wall1.jpg", "pdf2.pdf", "wall3.jpg", "wall4.jpg", "wall5.jpg",
             "note: this is a test note no 1 , note: this is a test note no 2, scratch card: head; scratch head; body; scratch body, downloadable file: wall3.jpg", "head: happy birthday body: i wish you long life",
-            "this is a test note info checked", "images.png", "OceanofPDF.com_Broken_-_Fatima_Bala.pdf"]
+            "this is a test note info checked", "images.png", "_OceanofPDF.com_Broken_-_Fatima_Bala.pdf"]
 let names = [".wallpaper from e~gift", ".novel from e~gift", ".wallpaper from e~gift", ".wallpaper from e~gift", ".wallpaper from e~gift", "box", "scratch", "note", "wallpaper from e~gift", ".novel from e~gift"]
 let ran = ["unrapping gifts", "preparing package", "tying ribbons", "purchasing gift bags", "stamping packages", "delivering packages", "finishing up", "tying friends", "opening gifts", "scanning gift code",
     "searching", "tearing package", "compressing gifts", "chatting with some friends", "checking my email"]
@@ -34,10 +34,10 @@ console.log("found")
  let body = gift[index].indexOf("body: ")
  head=gift[index].slice(head+5, body)
  body=gift[index].slice(body+5, ) 
- if(names[index]="scratch"){document.getElementById("scratchhead").innerHTML=head
+ if(names[index]=="scratch"){document.getElementById("scratchhead").innerHTML=head
  document.getElementById("scratchtxt").innerHTML=body}
 publicindex=index
-if(names[index]="box"){
+if(names[index]=="box"){
     publicarray=gift[index].split(",")
     console.log(publicarray)
     document.getElementById("h3txt").innerHTML=sender[index]+" sent you a gift box"
